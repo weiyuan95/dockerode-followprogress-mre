@@ -16,7 +16,9 @@ const Docker = require('dockerode');
           reject(err)
         }
         else {
-          console.log('successfully resolved')
+          console.log('successful response object ->>', res)
+          console.log()
+          console.log('followProgress successfully resolved')
           resolve(res)
         };
       },
