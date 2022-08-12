@@ -1,0 +1,13 @@
+{
+  "name": "dockrode-followProgress-mre",
+  "version": "1.0.0",
+  "dependencies": {
+    "dockerode": "^3.3.2"
+  },
+  "scripts": {
+    "repro": "node repro.js"
+  },
+  "engines": {
+    "node": ">= 8.0"
+  }
+}

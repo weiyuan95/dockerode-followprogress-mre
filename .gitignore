@@ -1,0 +1,59 @@
+# IntelliJ
+.idea/*
+!.idea/inspectionProfiles/
+!.idea/dictionaries/
+!.idea/codeStyles/
+!.idea/modules.xml
+!.idea/*.iml
+!.idea/README.md
+
+# Intellij - default jest run config
+!.idea/.run/
+.idea/.run/*
+!.idea/.run/run-all-jest-tests-from-proj-root.run.xml
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# node_modules
+node_modules
+package-lock.json
+!/package-lock.json
+yarn.lock
+
+# dist & pack
+dist
+*.tgz
+
+# debug log
+lerna-debug.log
+
+coverage
+
+# typescript
+tsconfig.tsbuildinfo
+tsconfig.build.tsbuildinfo
+
+# mac
+.DS_Store
+
+# Docusaurus
+documentation/.docusaurus
+documentation/node_modules
+documentation/package-lock.json
+
+# @cake-cloud/testcontainers
+.checksum
